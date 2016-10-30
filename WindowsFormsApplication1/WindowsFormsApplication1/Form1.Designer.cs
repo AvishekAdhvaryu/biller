@@ -422,6 +422,7 @@
             this.recieveCreditToolStripMenuItem.Name = "recieveCreditToolStripMenuItem";
             this.recieveCreditToolStripMenuItem.Size = new System.Drawing.Size(311, 28);
             this.recieveCreditToolStripMenuItem.Text = "Modify Bill";
+            this.recieveCreditToolStripMenuItem.Click += new System.EventHandler(this.recieveCreditToolStripMenuItem_Click);
             // 
             // vatInvoiceToolStripMenuItem
             // 

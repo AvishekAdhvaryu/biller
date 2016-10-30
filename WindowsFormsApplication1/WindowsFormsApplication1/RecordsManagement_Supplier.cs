@@ -114,6 +114,12 @@ namespace WindowsFormsApplication1
                 }
 
             }
+
+            if (cb_company.SelectedIndex <= -1)
+            {
+                MessageBox.Show("Please select company name from dropdown only, or create company first");
+                    return;
+            }
             //compnayId = 7;
             SqlString = @"INSERT INTO Supplier (CompanyId,SupplierFName,SupplierLName,EmailId,PhoneNo,AddressDetails,CityName,StateName,CountryName,PostalCode,OfficePhonePrimary,OfficePhoneSecondary,FaxNo,OfficeEmailId,Discount,DiscountIsActive,CreditDays) 
             VALUES (@compnayId,@SupplierFName,@SupplierLName,@EmailId,@PhoneNo,@AddressDetails,@CityName,@StateName,@CountryName,@PostalCode,@OfficePhonePrimary,@OfficePhoneSecondary,@FaxNo,@OfficeEmailId,@Discount,@DiscountIsActive,@CreditDays); ";

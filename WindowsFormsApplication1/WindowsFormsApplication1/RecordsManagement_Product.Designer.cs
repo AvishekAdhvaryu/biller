@@ -170,14 +170,12 @@
             // 
             // pb_image
             // 
-            this.pb_image.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pb_image.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.pb_image.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.pb_image.Location = new System.Drawing.Point(670, 436);
             this.pb_image.Margin = new System.Windows.Forms.Padding(4);
             this.pb_image.Name = "pb_image";
-            this.pb_image.Size = new System.Drawing.Size(238, 140);
+            this.pb_image.Size = new System.Drawing.Size(262, 140);
             this.pb_image.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_image.TabIndex = 363;
             this.pb_image.TabStop = false;
